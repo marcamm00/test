@@ -11,7 +11,8 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/Calc")
 public class Calc extends HttpServlet {
 	
-	public void init() {
+	public void init() 
+	{
 		System.out.println("start");
 	}
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
